@@ -1,11 +1,11 @@
-# Código 1
+# Print
 
 print('Olá mundo!')
 nome = input('Qual o seu nome? ')
 print('Prazer,', nome)
 
 
-# Código 2
+# Numeros inteiros
 
 n1 = int(input('Digite um valor: '))
 n2 = int(input('Digite outro valor: '))
@@ -13,7 +13,7 @@ n3 = int(input('valor: '))
 s = n1 + n2 + n3
 print(f'A soma entre {n1}, {n3} e {n2} é {s}')
 
-# Código 3
+# Calculadora de dois numeros
 
 print('Olá, seja bem vindo (a), sou uma calculadora que realiza apenas somas entre dois números!')
 msg = input('Qual seu nome? ')
@@ -26,7 +26,7 @@ s = n1+n2
 print(f'O valor da soma de {n1} e {n2} é {s}')
 print('Muito obrigado por testar!')
 
-# Código 4
+# Teste de strings
 
 algo = input('Digite algo: ')
 print(f'O valor {algo} é do tipo: ', type(algo))
